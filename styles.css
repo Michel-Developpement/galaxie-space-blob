@@ -8,21 +8,6 @@ body {
   backdrop-filter:  brightness(50%);
   font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  margin-top: 25%;
-  margin-bottom: 50%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  animation: slide 3s ease-out 
-}
 
 canvas {
   display: block;
@@ -31,34 +16,4 @@ canvas {
 #canvas_container {
   width: 100%;
   height: 100vh;
-}
-
-button {
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 1px solid white;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  padding: 0.5rem 0.9em;
-  background: #000000;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all .3s;
-}
-
-button:hover {
-  background: #ffffff;
-  color: #000000;
-}
-@keyframes slide {
-  from{
-    translate: -500%;
-  }
-  to{
-    translate: 0%;
-  }
 }
